@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,83 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>3rd Assignment PH10</title>
 </head>
-<body>
+
+<body class="font-[monrope] bg-gradient-to-b from-[#dfdfdf]">
+
+    <header class="container mx-auto">
+            <!-- Nav bar starts from here -->
+            <div class="navbar flex justify-between items-center">
+                <div>
+                    <i class="fa-solid fa-arrow-right bg-[#ABEF5F] p-2 rounded-full  -rotate-45 mr-1"></i>
+                    <a class=" text-[#212121] font-bold text-3xl">Rinterio</a>
+                </div>
+                <div class="hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="font-semibold text-[#212121]" href="#">Home</a></li>
+                        <li><a class="text-[#737373]" href="#">Services</a></li>
+                        <li><a class="text-[#737373]" href="#">Portfolio</a></li>
+                        <li><a class="text-[#737373]" href="#">Blogs</a></li>
+                        <li><a class="text-[#737373]" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="hidden md:block">
+                        <i class="fa-solid fa-magnifying-glass p-2 rounded-full text-slate-400 bg-[#FFFFFF]"></i>
+                        <i class="fa-solid fa-shopping-cart mx-4 bg-white p-2 rounded-full text-[#a1a1a1]"></i>
+                        <a class="font-semibold py-[12px] px-[20px]  rounded-[32px] bg-[#ABEF5F] hover:bg-[#77c91a]  text-[#1C1C1C] text-xl">Book Consult<i class="fa-solid fa-arrow-right ml-2 bg-[#1C1C1C] text-white p-2 rounded-full -rotate-45 -mr-2"></i></a>
+                    </div>
+                    <div class="dropdown relative">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars text-2xl"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-xl dropdown-content absolute bg-base-100 rounded-box z-[1] mt-3 w-[200px] md:w-[300px] md:-left-[250px] -left-[150px] p-2 shadow">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nav bar ends here -->
+
+            <!-- Banner starts from here -->
+             <section class="flex flex-col justify-center items-center space-y-3 my-2">
+                <div>
+                    <img class="w-[70%] block md:w-[90%] lg:w-[100%] mx-auto" src="assets/banner.png" alt="this is the bannner">
+                </div>
+                <div class="text-center space-y-5 w-[90%]">
+                    <h1 class="lg:text-6xl md:text-3xl text-2xl font-bold text-[#212121]">A barn house of this design has a striking appearance
+                    </h1>
+                    <p class="text-[#494949]">The barn house captivates with its blend of rustic charm and modern
+                        sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <button class="bg-[#ABEF5F80] px-24 py-1.5 md:px-4 md:py-1 rounded-[25px] font-semibold ">
+                        View Details
+                        <i
+                            class="fa-solid fa-arrow-right ml-2 bg-[#87d72c80] text-black p-2 rounded-full -rotate-45 -mr-2"></i>
+                    </button>
+                </div>
+             </section>
+            <!-- Banner ends here -->
+    </header>
+
+        <!-- space and process section starts from here -->
+
+        <section>
+            <div class="container mx-auto">
+                
+
+            </div>
+
+        </section>
+
+        <!-- space and process section ends here -->
+
 
 
 
@@ -30,4 +107,5 @@
 
 
 </body>
+
 </html>
